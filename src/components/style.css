@@ -1,0 +1,39 @@
+.text-align-center {
+  text-align: center;
+}
+
+.font-verdana {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.font-color-red {
+  color: red;
+}
+
+.margin-10 {
+  margin: 10px;
+}
+
+.input-group {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  padding: 10px 100px;
+}
+
+.loginPage {
+  margin: 80px auto;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 2px 3px #ccc;
+  border: 1px solid #eee;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: rgb(245, 239, 239);
+}
+
+@media (min-width: 600px) {
+  .loginPage {
+    width: 500px;
+  }
+}
